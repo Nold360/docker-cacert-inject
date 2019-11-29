@@ -1,0 +1,4 @@
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}:ca-patched
+RUN apt-get update && apt-get -y install wget 
+CMD /usr/bin/wget -O- https://test

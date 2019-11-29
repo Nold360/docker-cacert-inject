@@ -1,0 +1,4 @@
+*.swp
+.env
+/certs/*
+/test/certs/*
